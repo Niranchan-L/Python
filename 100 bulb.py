@@ -11,7 +11,7 @@ for p in range(1, 101):
 
 
 # Printing process
-for e in range(10):
+for e in range(len(x)//10):
     print(x[e*10:(e*10) + 10])
 
 for r in range(len(x)):
