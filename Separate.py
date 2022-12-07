@@ -1,0 +1,8 @@
+txt = '''Professionally printed material in English typically does not indent the first paragraph, but indents those that follow. For example, Robert Bringhurst states that we should "Set opening paragraphs flush left."[2] Bringhurst explains as follows:
+The function of a paragraph is to mark a pause, setting the paragraph apart from what precedes it. If a paragraph is preceded by a title or subhead, the indent is superfluous and can therefore be omitted.[2]
+The Elements of Typographic Style states that "at least one en [space]" should be used to indent paragraphs after the first,[2] noting that that is the "practical minimum".[3] An em space is the most commonly used paragraph indent.[3] Miles Tinker, in his book Legibility of Print, concluded that indenting the first line of paragraphs increases readability by 7%, on average.[4]
+When referencing a paragraph, typographic symbol U+00A7 § SECTION SIGN (&sect;) may be used: "See § Background".
+In modern usage, paragraph initiation is typically indicated by one or more of a preceding blank line, indentation, an "Initial" ("drop cap") or other indication. Historically, the pilcrow symbol (¶) was used in Latin and western European languages. Other languages have their own marks with similar function.
+Widows and orphans occur when the first line of a paragraph is the last in a column or page, or when the last line of a paragraph is the first line of a new column or page'''
+txt = txt.split(".")
+print(len(txt))
